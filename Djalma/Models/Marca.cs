@@ -7,7 +7,7 @@ namespace Djalma.Models
         public int MarcaId { get; set; }
 
         [Required(ErrorMessage = "O campo {0} deve ser informado")]
-        [Display(Name = "Nome da Marca")]
+        [Display(Name = "Marca")]
         public string Nome { get; set; }
 
         [Display(Name = "País da Marca")]
